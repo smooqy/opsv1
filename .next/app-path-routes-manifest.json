@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/analyze-brand/route": "/api/analyze-brand",
+  "/api/chat/route": "/api/chat",
+  "/api/generate-content/route": "/api/generate-content",
+  "/automations/page": "/automations",
+  "/clients/page": "/clients",
+  "/commercial/page": "/commercial",
+  "/content-studio/page": "/content-studio",
+  "/financial/page": "/financial",
+  "/page": "/",
+  "/production/page": "/production",
+  "/routine/page": "/routine",
+  "/strategy/page": "/strategy",
+  "/tools/page": "/tools"
+}

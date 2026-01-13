@@ -1,0 +1,43 @@
+﻿
+> ops-operation@0.1.0 build
+> next build
+
+Ôû▓ Next.js 16.1.1 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 5.2s
+  Running TypeScript ...
+node.exe : Failed to compile.
+No C:\Program Files\nodejs\npm.ps1:29 caractere:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fail 
+   ed to compile.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+./lib/usePageContext.tsx:102:51
+Type error: This comparison appears to be 
+unintentional because the types 'ProductionStage' 
+and '"concluido"' have no overlap.
+
+[0m [90m 100 |[39m         [90m// 
+Production[39m
+ [90m 101 |[39m         [36mif[39m (pathname 
+[33m===[39m [32m'/production'[39m) {
+[31m[1m>[22m[39m[90m 102 |[39m             
+[36mconst[39m activeTasks [33m=[39m 
+tasks[33m.[39mfilter(t [33m=>[39m 
+t[33m.[39mstage [33m!==[39m 
+[32m'concluido'[39m [33m&&[39m 
+t[33m.[39mstage [33m!==[39m 
+[32m'entregue'[39m)[33m;[39m
+ [90m     |[39m                                 
+                  [31m[1m^[22m[39m
+ [90m 103 |[39m
+ [90m 104 |[39m             [36mreturn[39m {
+ [90m 105 |[39m                 page[33m:[39m 
+[32m'production'[39m[33m,[39m[0m
+Next.js build worker exited with code: 1 and 
+signal: null

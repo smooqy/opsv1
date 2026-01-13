@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/analyze-brand/route": "app/api/analyze-brand/route.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/api/generate-content/route": "app/api/generate-content/route.js",
+  "/automations/page": "app/automations/page.js",
+  "/clients/page": "app/clients/page.js",
+  "/commercial/page": "app/commercial/page.js",
+  "/content-studio/page": "app/content-studio/page.js",
+  "/financial/page": "app/financial/page.js",
+  "/page": "app/page.js",
+  "/production/page": "app/production/page.js",
+  "/routine/page": "app/routine/page.js",
+  "/strategy/page": "app/strategy/page.js",
+  "/tools/page": "app/tools/page.js"
+}
